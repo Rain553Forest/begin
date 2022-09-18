@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+	</head>
+	<body>
+		<form >
+		<table class="box" border="1">
+			<tr>
+				<th style="font-weight: 1000;letter-spacing: 20px;font-size: 20px;border-collapse: collapse;text-align: center;padding-left: 20px;"
+					colspan="2">信息统计表</th>
+			</tr>
+			<tr>
+				<td>姓名:</td>
+				<td><input style="width: 97%;" type="text" placeholder="请输入姓名" /></td>
+			</tr>
+			<tr>
+				<td>年龄:</td>
+				<td><input style="width: 97%;" type="text" placeholder="请输入年龄"/></td>
+			</tr>
+			<tr>
+				<td>性别:</td>
+				<td><input type="radio" name="sex" / id="man">
+				<label for="man">男</label><input type="radio" name="sex" id="woman" /><label for="woman">女</label></td>
+			</tr>
+			<tr>
+				<td>爱好:</td>
+				<td>
+					<div><input type="checkbox"/>旅游</div>
+					<div><input type="checkbox"/>登山</div>
+					<div><input type="checkbox"/>健身</div>
+					<div><input type="checkbox"/>上网</div>
+					<div><input type="checkbox"/>游泳</div>
+				</td>
+			</tr>
+			<tr>
+				<td>学历:</td>
+				<td>
+					<select style="width: 50%;">
+						<option>小学</option>
+						<option>初中</option>
+						<option>高中</option>
+						<option>本科</option>
+						<option>专科</option>
+					</select>
+				</td>
+			</tr>
+			<tr>
+				<td>自我介绍:</td>
+				<td><textarea style="height: 100px;width: 97%;"></textarea></td>
+			</tr>
+			<tr style="text-align: center;">
+				<td colspan="2" style="border: 0;"><input type="submit" value="提交" style="margin-right: 50px;"><input type="reset" value="重置"></td>
+			</tr>
+		</table>
+		</form>
+	</body>
+	<style>
+		.box {
+			width: 400px;
+			margin: auto;
+		}
+		.checkBox input {
+			display: block;
+		}
+	</style>
+</html>
